@@ -1,6 +1,11 @@
 spring:
   application:
     name: order
+  rabbitmq:
+    host: 192.168.3.102
+    port: 5672
+    username: guest
+    password: guest
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
