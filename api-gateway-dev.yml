@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      # 如果要允许从前台传递cookie到后台将下面这个字段设置为空即可
+      sensitiveHeaders:
+  #禁止某些路由请求路径
+  #ignored-patterns:
+   # - /**/product/listForOrder
+#简洁写法    product: /myProduct/**
