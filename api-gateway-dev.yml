@@ -1,4 +1,6 @@
 zuul:
+ #开启所有服务的敏感头设置，都可以传递cookie
+  sensitive-headers:
   routes:
     myProduct:
       path: /myProduct/**
